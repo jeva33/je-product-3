@@ -1,0 +1,421 @@
+/*// colors*/
+/*// fonts
+*/
+@import url(../css/protected.css);
+@import url(../css/main.css);
+@import url(../css/login.css);
+@import url(../css/lightbox.css);
+@import url(../css/isolation.css);
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+video::-webkit-media-controls-panel {
+  background: #f2f2f2;
+  position: relative;
+  top: 32px; }
+
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+  display: none; }
+
+video::-webkit-media-controls-timeline {
+  position: relative; }
+
+.caption-right {
+  color: #666666;
+  font-family: 'Martel', serif;
+  font-size: 14px;
+  font-weight: 300;
+  float: left;
+  width: 286px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 0 24px 28px 0; }
+
+#home-button {
+  height: 190px; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  color: #383838;
+}
+
+a {
+  color: #383838;
+  text-decoration: none; }
+
+/* --------------------------------
+
+Main Components
+
+-------------------------------- */
+#clock {
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  display: none; }
+
+.cd-horizontal-timeline {
+  opacity: 0;
+  margin: 1em auto 0;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  transition: opacity 0.2s; }
+  .cd-horizontal-timeline::before {
+    /* never visible - this is used in jQuery to check the current MQ */
+    content: 'mobile';
+    display: none; }
+  .cd-horizontal-timeline.loaded {
+    /* show the timeline after events position has been set (using JavaScript) */
+    opacity: 1; }
+  .cd-horizontal-timeline .timeline {
+    position: relative;
+    height: 92px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 100; }
+  .cd-horizontal-timeline .events-wrapper {
+    position: relative;
+    height: 100%;
+    margin: 0 32px;
+    overflow: hidden; }
+    .cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
+      /* these are used to create a shadow effect at the sides of the timeline */
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      height: 100%;
+      width: 20px; }
+    .cd-horizontal-timeline .events-wrapper::before {
+      left: 0; }
+    .cd-horizontal-timeline .events-wrapper::after {
+      right: 0; }
+  .cd-horizontal-timeline .events {
+    /* this is the grey line/timeline */
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 49px;
+    height: 1px;
+    background: #FFFFFF;
+    /* width will be set using JavaScript */
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s; }
+  .cd-horizontal-timeline .filling-line {
+    /* this is used to create the green line filling the timeline */
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1%;
+    background-color: #F4512C;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s; }
+  .cd-horizontal-timeline .events a {
+    position: absolute;
+    bottom: 1px;
+    line-height: 15px;
+    z-index: 2;
+    text-align: center;
+    font-size: 0.65em;
+    font-weight: 400;
+    padding-bottom: 22px;
+    width: 100px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0); }
+    .cd-horizontal-timeline .events a::after {
+      /* this is used to create the event spot */
+      content: '';
+      position: absolute;
+      left: 50%;
+      right: auto;
+      bottom: -6px;
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      border: 1px solid #F4512C;
+      background-color: #FFFFFF;
+      -webkit-transition: background-color 0.3s, border-color 0.3s;
+      -moz-transition: background-color 0.3s, border-color 0.3s;
+      transition: background-color 0.3s, border-color 0.3s;
+      left: 50%;
+      right: auto;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+    .cd-horizontal-timeline .events a span.nav-date {
+      display: block;
+      font-weight: 300; }
+    .no-touch .cd-horizontal-timeline .events a:hover::after {
+      background-color: #F4512C;
+      border-color: #F4512C; }
+    .cd-horizontal-timeline .events a.selected {
+      background-image: url("/img/throb.svg");
+      background-size: 32px 32px;
+      background-repeat: no-repeat;
+      background-position: 34px 33px;
+      color: #000000;
+      pointer-events: none; }
+      .cd-horizontal-timeline .events a.selected::after {
+        background-color: #F4512C;
+        border-color: #F4512C; }
+    .cd-horizontal-timeline .events a.older-event::after {
+      border-color: #F4512C; }
+  @media only screen and (min-width: 2000px) {
+    .cd-horizontal-timeline {
+      /*		margin: 6em auto;
+      */ }
+      .cd-horizontal-timeline::before {
+        /* never visible - this is used in jQuery to check the current MQ */
+        content: 'desktop'; } }
+
+.cd-timeline-navigation a {
+  /* these are the left/right arrows to navigate the timeline */
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 40px;
+  width: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  color: transparent;
+  text-indent: 100%;
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+  background: url(../img/cd-arrow-hover.svg) no-repeat 0 0; }
+  .cd-timeline-navigation a::after {
+    /* arrow icon */
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 28px;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); }
+  .cd-timeline-navigation a.prev {
+    left: 0;
+    top: 49px;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    -moz-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    -o-transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(180deg); }
+  .cd-timeline-navigation a.next {
+    right: 0;
+    top: 49px; }
+  .cd-timeline-navigation a:hover {
+    height: 40px;
+    width: 28px;
+    background: url(../img/cd-arrow-hover.svg) no-repeat 0 0;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s; }
+  .cd-timeline-navigation a.inactive {
+    cursor: default;
+    background: url(../img/cd-arrow-hover.svg) no-repeat 0 0;
+    opacity: 0.3; }
+    .cd-timeline-navigation a.inactive::after {
+      background-position: 0 -16px; }
+
+.events-content {
+  top: -16px; }
+
+.cd-horizontal-timeline {
+  top: 0; }
+
+.cd-horizontal-timeline .events-content {
+  position: relative;
+  width: 100%;
+  margin: 0 0 2em 0;
+  overflow: hidden;
+  -webkit-transition: height 0.4s;
+  -moz-transition: height 0.4s;
+  transition: height 0.4s; }
+  .cd-horizontal-timeline .events-content li {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+    padding: 0 10%;
+    opacity: 0;
+    -webkit-animation-duration: 0.4s;
+    -moz-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; }
+    .cd-horizontal-timeline .events-content li.selected {
+      /* visible event content */
+      position: relative;
+      z-index: 2;
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0); }
+    .cd-horizontal-timeline .events-content li.enter-right, .cd-horizontal-timeline .events-content li.leave-right {
+      -webkit-animation-name: cd-enter-right;
+      -moz-animation-name: cd-enter-right;
+      animation-name: cd-enter-right; }
+    .cd-horizontal-timeline .events-content li.enter-left, .cd-horizontal-timeline .events-content li.leave-left {
+      -webkit-animation-name: cd-enter-left;
+      -moz-animation-name: cd-enter-left;
+      animation-name: cd-enter-left; }
+    .cd-horizontal-timeline .events-content li.leave-right, .cd-horizontal-timeline .events-content li.leave-left {
+      -webkit-animation-direction: reverse;
+      -moz-animation-direction: reverse;
+      animation-direction: reverse; }
+  .cd-horizontal-timeline .events-content li > * {
+    max-width: 620px;
+    margin: 0 auto; }
+  .cd-horizontal-timeline .events-content h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    position: relative;
+    right: 4px;
+    margin: 40px 0 30px 0;
+    display: block; }
+  .cd-horizontal-timeline .events-content em {
+    display: block;
+    font-style: italic;
+    margin: auto; }
+  .cd-horizontal-timeline .events-content p.project-description {
+    margin-top: 10px; }
+
+@-webkit-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%); } }
+@-moz-keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(100%); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%); } }
+@keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%); } }
+@-webkit-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%); } }
+@-moz-keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-100%); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0%); } }
+@keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%); } }
+
+/*# sourceMappingURL=style.css.map */
+
+.case-study-tag {
+  padding: 2px 18px;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: lato;
+  font-weight: 500;
+  color: rgba(252, 49, 22, 0.8);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(252, 49, 22, 0.8);
+}
+.case-study-head {
+  font-size: 44px;
+}
+.JE-subhead {
+  font-family: 'Martel', serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
