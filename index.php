@@ -81,7 +81,7 @@
 			<div id="work">
 
         <div class="project-item">
-          <a href="wowww.joneva.consulting">
+          <a href="work/ec/index.html">
             <div id="je-motion-ec" style="max-width:300px">
               <span class="title-wrapper">
                 <span class="title" style="margin: -3% 0 30% 0;">
@@ -104,7 +104,7 @@
 				</div>
 
 				<div class="project-item">
-					<a href="wowww.joneva.consulting">
+					<a href="work/bc/index.html">
 						<div id="je-motion-bc" style="max-width:300px">
 						  <span class="title-wrapper">
 							 <span class="title">
@@ -140,7 +140,7 @@
 				</div>
 
 				<div class="project-item">
-					<a href="wowww.joneva.consulting">
+					<a href="work/hp/index.html">
 						<img src="site/assets/hp.jpg" width="1200" height="600" style="max-width:600px" alt="">
 						<span class="title-wrapper">
 							<span class="title">
