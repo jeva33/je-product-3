@@ -16,15 +16,6 @@
   <body class="template-home page-1 wow fadeIn" data-wow-duration=".5s">
 
   <!-- preload rollover images -->
-  <div id="preloader">
-    <img src="http://joneva.consulting/site/assets/bc02.gif" width="1" height="1" />
-    <img src="http://joneva.consulting/site/assets/ec.gif" width="1" height="1" />
-    <img src="http://joneva.consulting/site/assets/invue.gif" width="1" height="1" />
-    <img src="http://joneva.consulting/site/assets/motion.gif" width="1" height="1" />
-    <img src="http://joneva.consulting/site/assets/qiq.gif" width="1" height="1" />
-    <img src="http://joneva.consulting/site/assets/thelife.gif" width="1" height="1" />
-  </div>
-
   <style>
     @media screen {
     div#preloader {
@@ -260,7 +251,14 @@
       <p class="je-name wow fadeIn" data-wow-delay="1.25s">JON EVA</p>
     </div>
 
-
+  <div id="preloader">
+    <img src="http://joneva.consulting/site/assets/bc02.gif" width="1" height="1" />
+    <img src="http://joneva.consulting/site/assets/ec.gif" width="1" height="1" />
+    <img src="http://joneva.consulting/site/assets/invue.gif" width="1" height="1" />
+    <img src="http://joneva.consulting/site/assets/motion.gif" width="1" height="1" />
+    <img src="http://joneva.consulting/site/assets/qiq.gif" width="1" height="1" />
+    <img src="http://joneva.consulting/site/assets/thelife.gif" width="1" height="1" />
+  </div>
 
 		<script src="site/templates/bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="site/templates/bower_components/foundation/js/foundation.min.js"></script>
