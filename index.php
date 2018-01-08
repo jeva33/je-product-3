@@ -20,8 +20,12 @@
 <style>
   @media (hover:none), (hover:on-demand) {
     div#je-motion-ec:hover {
-    background-image: none;
-  }
+      background-image: none;
+    }
+    #work div.project-item a span.title-wrapper {
+      opacity: 1;
+      background: rgba(56, 56, 56, .6);
+    }
 }
 </style>
 
