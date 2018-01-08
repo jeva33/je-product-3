@@ -26,7 +26,15 @@
       opacity: 1;
       background: rgba(56, 56, 56, .6);
     }
-}
+    #work div.project-item a span.title-wrapper .title {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    #work div.project-item a .title {
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
 </style>
 
 
