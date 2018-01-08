@@ -15,6 +15,17 @@
 
   <body class="template-home page-1 wow fadeIn" data-wow-duration=".5s">
 
+
+<!-- suppress hover effect on devices that don't support hover fully -->
+<style>
+  @media (hover:none), (hover:on-demand) {
+    div#je-motion-ec:hover {
+    background-image: none;
+  }
+}
+</style>
+
+
     <!-- Full Screen Menu -->
     <div id="primary-navigation">
       <div class="inner">
@@ -239,6 +250,7 @@
 		<script src="site/templates/bower_components/slick-carousel/slick/slick.min.js"></script>
 		<script src="site/templates/bower_components/wow/dist/wow.min.js"></script>
 		<script src="site/templates/js/app.js"></script>
+
 		<script>
 		$(document).ready(function(){
 		});
