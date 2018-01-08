@@ -22,11 +22,11 @@
     div#je-motion-ec:hover {
       background-image: none;
     }
-    span.title-wrapper {
+    #je-motion-ec > span {
       opacity: 1;
       background: rgba(56, 56, 56, .6);
     }
-    .title {
+    #je-motion-ec > span > span {
       display: block;
       color: white;
       text-decoration: none;
