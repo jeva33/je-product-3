@@ -25,7 +25,7 @@
     }
     #work div.project-item a span.title-wrapper .title {
       display: block;
-      color: pink;
+      color: #FFFFFF;
       text-decoration: none;
       -webkit-transform: scale(1);
       transform: scale(1);
