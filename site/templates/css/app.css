@@ -17857,6 +17857,9 @@ blockquote p {
     h6 {
         font-size: 1rem
     }
+    #work {
+        margin-top: 6em;
+    }
 }
 .print-only {
     display: none !important

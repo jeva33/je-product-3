@@ -19,6 +19,7 @@
 <!-- suppress hover effect on devices that don't support hover fully -->
 <style>
   @media (hover:none), (hover:on-demand) {
+
     div#je-motion-ec:hover {
       background-image: none;
     }
