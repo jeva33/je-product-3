@@ -25,15 +25,23 @@
     }
     #work div.project-item a span.title-wrapper .title {
       display: block;
-      color: white;
+      color: pink;
       text-decoration: none;
       -webkit-transform: scale(1);
       transform: scale(1);
     }
-    #work div.project-item a span.title-wrapper {
+    #je-motion-ec > span {
       opacity: 1;
-      background: rgba(56, 56, 56, .6);
+      background: rgba(0, 0, 0, 0.65);
     }
+    .skrim {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
   }
 </style>
 
@@ -105,6 +113,7 @@
 
         <div class="project-item">
           <a href="work/ec/index.html">
+            <div class="skirm"></div>
             <div id="je-motion-ec" style="max-width:300px">
               <span class="title-wrapper">
                 <span class="title" style=" margin: -3% 0 30% 0;background-color: rgba(255, 255, 255, 0);">
