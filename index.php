@@ -35,7 +35,7 @@
       transform: scale(1);
     }
     #work div.project-item a span.title-wrapper {
-      background-color: rgba(0, 0, 0, 0.6);
+      opacity: 1;
     }
   }
 </style>
