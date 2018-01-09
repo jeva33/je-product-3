@@ -23,10 +23,6 @@
     div#je-motion-ec:hover {
       background-image: none;
     }
-    #je-motion-ec > span {
-      opacity: 1;
-      background: rgba(56, 56, 56, .6);
-    }
     #work div.project-item a span.title-wrapper .title {
       display: block;
       color: white;
@@ -36,6 +32,7 @@
     }
     #work div.project-item a span.title-wrapper {
       opacity: 1;
+      background: rgba(56, 56, 56, .6);
     }
   }
 </style>
