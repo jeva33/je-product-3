@@ -33,8 +33,6 @@
       text-decoration: none;
       -webkit-transform: scale(1);
       transform: scale(1);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
     }
     #work div.project-item a span.title-wrapper {
       background-color: rgba(0, 0, 0, 0.6);
