@@ -34,7 +34,7 @@
       opacity: 1;
       background: rgba(0, 0, 0, 0.65);
     }
-    .skrim {
+    #work div.project-item a div.skrim {
     background-color: rgba(0, 0, 0, 0.65);
     height: 100%;
     width: 100%;
