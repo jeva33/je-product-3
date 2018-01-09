@@ -27,15 +27,17 @@
       opacity: 1;
       background: rgba(56, 56, 56, .6);
     }
-    #je-motion-ec > span > span {
+    #work div.project-item a span.title-wrapper .title {
       display: block;
       color: white;
       text-decoration: none;
-      background-color: rgba(255, 255, 255, 0);
       -webkit-transform: scale(1);
       transform: scale(1);
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    #work div.project-item a span.title-wrapper {
+      background-color: rgba(0, 0, 0, 0.6);
     }
   }
 </style>
@@ -110,7 +112,7 @@
           <a href="work/ec/index.html">
             <div id="je-motion-ec" style="max-width:300px">
               <span class="title-wrapper">
-                <span class="title" style="margin: -3% 0 30% 0;">
+                <span class="title" style=" margin: -3% 0 30% 0;background-color: rgba(255, 255, 255, 0);">
                   Employee Channel
                 </span>
               </span>

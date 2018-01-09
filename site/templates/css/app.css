@@ -17832,7 +17832,8 @@ blockquote p {
 }
 @media only screen and (min-width: 40.063em) {
     #je-name {
-        font-weight: 600;
+        font-size: 80px;
+        margin: 0;
     }
     h2,
     h3,
@@ -17861,7 +17862,7 @@ blockquote p {
         font-size: 1rem
     }
     #work {
-        margin-top: 6em;
+        margin-top: 2em;
     }
 }
 .print-only {
