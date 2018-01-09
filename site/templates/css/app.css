@@ -17831,6 +17831,9 @@ blockquote p {
     padding: 0 0.0625rem
 }
 @media only screen and (min-width: 40.063em) {
+    #je-name {
+        font-weight: 600;
+    }
     h2,
     h3,
     h4,
