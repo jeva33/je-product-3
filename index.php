@@ -34,7 +34,7 @@
       opacity: 1;
       background: rgba(0, 0, 0, 0.65);
     }
-    #work div.project-item a div.skrim {
+    #work div.project-item a .skrim {
     background-color: rgba(0, 0, 0, 0.65);
     height: 100%;
     width: 100%;
@@ -113,13 +113,14 @@
 
         <div class="project-item">
           <a href="work/ec/index.html">
-            <div class="skirm"></div>
-            <div id="je-motion-ec" style="max-width:300px">
-              <span class="title-wrapper">
-                <span class="title" style=" margin: -3% 0 30% 0;background-color: rgba(255, 255, 255, 0);">
-                  Employee Channel
+            <div class="skirm">
+              <div id="je-motion-ec" style="max-width:300px">
+                <span class="title-wrapper">
+                  <span class="title" style=" margin: -3% 0 30% 0;background-color: rgba(255, 255, 255, 0);">
+                    Employee Channel
+                  </span>
                 </span>
-              </span>
+              </div>
             </div>
           </a>
         </div>
