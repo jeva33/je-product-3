@@ -20621,7 +20621,7 @@ div.masthead-work-wrapper {
         font-size: 33px
     }
 }
-html.touch #work div.project-item a span.title-wrapper {
+/*html.touch #work div.project-item a span.title-wrapper {
     opacity: 1;
     background: 0, 0, 0, 0;
     color: #000
@@ -20630,7 +20630,7 @@ html.touch #work div.project-item a span.title-wrapper span.title {
     display: inline-block;
     background: rgba(255, 255, 255, 0.8);
     padding: 8px 15px
-}
+}*/
 #work div.project-item a .title {
     position: absolute;
     top: 43%;

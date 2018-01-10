@@ -23,8 +23,7 @@
     div#je-motion-ec:hover {
       background-image: none;
     }
-    #work div.project-item > a > div > div > span.title-wrapper > span.title,
-    #work div.project-item a img span.title-wrapper span.title {
+    span.title {
       display: block;
       color: #FFFFFF;
       text-decoration: none;
