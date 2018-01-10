@@ -17834,6 +17834,10 @@ blockquote p {
     #je-name {
         font-size: 80px;
         margin: 0;
+        padding:6% 6% 2% 6%;
+    }
+    #je-intro {
+        padding: 6% 6% 8% 6%;
     }
     h2,
     h3,
