@@ -23,16 +23,13 @@
     div#je-motion-ec:hover {
       background-image: none;
     }
-    #work div.project-item a span.title-wrapper .title {
+    #work div.project-item > a > div > div > span.title-wrapper > span.title,
+    #work div.project-item a img span.title-wrapper span.title {
       display: block;
       color: #FFFFFF;
       text-decoration: none;
       -webkit-transform: scale(1);
       transform: scale(1);
-    }
-    #je-motion-ec > span {
-      opacity: 1;
-      background: rgba(0, 0, 0, 0.65);
     }
     #work div.project-item a .skrim {
     background-color: rgba(0, 0, 0, 0.65);
@@ -91,7 +88,7 @@
 			<div class="content wow fadeInDown">
 				<div class="site-name"></div>
 				<div class="body">
-					<p><span id="je-name" style="font-weight: 600;line-height: 100px;margin: 0 0 20px;display: inline-block;padding:6%;">JON EVA</span></p>
+					<p><span id="je-name" style="font-weight: 600;font-size: 80px;line-height: 100px;margin: 0 0 20px;display: inline-block;padding:6%;">JON EVA</span></p>
 					<p id="je-intro">Product Designer / Interaction Designer (UXD) specializing in building native mobile and web apps from zero to feature complete in verticals not limited to; education, finance, business management, retail and sports. A business and technology foundation built on years of interaction design, motion design, brand development and marketing experience.</p>
 				</div>
 			</div>
