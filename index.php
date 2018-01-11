@@ -38,6 +38,10 @@
       left: 0;
       top: 0;
     }
+    .title-skrim {
+      display: block;
+    }
+
   }
 </style>
 
