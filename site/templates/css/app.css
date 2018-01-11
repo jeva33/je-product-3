@@ -21404,3 +21404,19 @@ body.template-contact div.contact-form-wrapper form.contact button.submit {
 * {
   margin: 0;
 }
+
+.title-skrim {
+    display: block;
+    width: 300px;
+    height: 300px;
+    float: left;
+    background: rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.1em;
+    text-align: center;
+    padding: 3.7em 1em;
+    text-shadow: 1px 1px 1px black;
+}
