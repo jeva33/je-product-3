@@ -108,6 +108,9 @@
 			<div id="work">
 
         <div class="project-item">
+
+          <div class="title-skrim" style="display: block;width: 300px;height: 300px;float: left;background: rgba(0, 0, 0, 0.4);color: #FFFFFF;font-family: "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;font-size: 200%;font-weight: 300;line-height: 110%;text-align: center;padding: 37% 10%;">EmployeeChannel</div>
+
           <a href="work/ec/index.html">
             <div class="skirm">
               <div id="je-motion-ec" style="max-width:300px">
