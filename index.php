@@ -187,7 +187,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim" style="width: 600px;">HP Enterprise</div>
+          <div class="title-skrim" style="width: 100%;">HP Enterprise</div>
 
 					<a href="work/hp/index.html">
 						<img src="site/assets/hp.jpg" width="1200" height="600" style="max-width:600px" alt="">
@@ -257,7 +257,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim">Big Brothers & Big Sisters of Los Angeles</div>
+          <div class="title-skrim" style="padding-top: 3em;">Big Brothers & Big Sisters of Los Angeles</div>
 
 					<a href="work/cbb/index.html">
 						<img src="site/assets/cbb.jpg" width="600" height="600" style="max-width:300px" alt="">
@@ -270,7 +270,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim" style="width: 600px;">Knopf</div>
+          <div class="title-skrim" style="width: 100%;">Knopf</div>
 
 					<a href="work/knopf/index.html">
 						<img src="site/assets/knopf.jpg" width="1200" height="600" style="max-width:600px" alt="">
