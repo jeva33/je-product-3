@@ -21407,6 +21407,7 @@ body.template-contact div.contact-form-wrapper form.contact button.submit {
 
 .title-skrim {
     display: block;
+    position: absolute;
     width: 300px;
     height: 300px;
     float: left;

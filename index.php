@@ -128,7 +128,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim">Superbowl 35</div>
+          <div class="title-skrim" style="height: 600px;">Superbowl 35</div>
 
 					<a href="work/superbowl/index.html">
 						<img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px" alt="">
@@ -187,7 +187,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim">HP Enterprise</div>
+          <div class="title-skrim" style="width: 600px;">HP Enterprise</div>
 
 					<a href="work/hp/index.html">
 						<img src="site/assets/hp.jpg" width="1200" height="600" style="max-width:600px" alt="">
@@ -201,7 +201,7 @@
 
         <div class="project-item">
 
-          <div class="title-skrim">InVue</div>
+          <div class="title-skrim" style="height: 600px;">InVue</div>
 
           <a href="work/invue/index.html">
             <div id="je-motion-invue" style="max-width:300px">
@@ -270,7 +270,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim">Knopf</div>
+          <div class="title-skrim" style="width: 600px;">Knopf</div>
 
 					<a href="work/knopf/index.html">
 						<img src="site/assets/knopf.jpg" width="1200" height="600" style="max-width:600px" alt="">
