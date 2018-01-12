@@ -127,6 +127,9 @@
         </div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">Superbowl 35</div>
+
 					<a href="work/superbowl/index.html">
 						<img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px" alt="">
 						<span class="title-wrapper">
@@ -138,11 +141,14 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">Brite Class</div>
+
 					<a href="work/bc/index.html">
 						<div id="je-motion-bc" style="max-width:300px">
 						  <span class="title-wrapper">
 							 <span class="title">
-								BriteClass
+								Brite Class
 							 </span>
 						  </span>
             </div>
@@ -150,6 +156,9 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">Identity Design</div>
+
 					<a href="work/identity/index.html">
 						<div id="je-motion-qiq" style="max-width:300px">
 							<span class="title-wrapper">
@@ -162,6 +171,9 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">Outpost Digital</div>
+
 					<a href="work/opd/index.html">
 						<div id="je-motion" style="max-width:300px">
 							<span class="title-wrapper">
@@ -174,6 +186,9 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">HP Enterprise</div>
+
 					<a href="work/hp/index.html">
 						<img src="site/assets/hp.jpg" width="1200" height="600" style="max-width:600px" alt="">
 						<span class="title-wrapper">
@@ -185,6 +200,9 @@
 				</div>
 
         <div class="project-item">
+
+          <div class="title-skrim">InVue</div>
+
           <a href="work/invue/index.html">
             <div id="je-motion-invue" style="max-width:300px">
               <span class="title-wrapper">
@@ -197,6 +215,9 @@
         </div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">ESPN The Life</div>
+
 					<a href="work/thelife/index.html">
 						<div id="je-motion-life" style="max-width:300px">
 							<span class="title-wrapper">
@@ -209,6 +230,9 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">Tax Free World Association</div>
+
 					<a href="work/taxfree/index.html">
 						<img src="site/assets/taxfree.jpg" width="600" height="600" style="max-width:300px" alt="">
 						<span class="title-wrapper">
@@ -219,6 +243,9 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">NASA Explorer Schools</div>
+
 					<a href="work/nes/index.html">
 						<img src="site/assets/nes.jpg" width="600" height="600" style="max-width:300px" alt="">
 						<span class="title-wrapper">
@@ -229,6 +256,9 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">Big Brothers & Big Sisters of Los Angeles</div>
+
 					<a href="work/cbb/index.html">
 						<img src="site/assets/cbb.jpg" width="600" height="600" style="max-width:300px" alt="">
 						<span class="title-wrapper">
@@ -239,6 +269,9 @@
 				</div>
 
 				<div class="project-item">
+
+          <div class="title-skrim">Knopf</div>
+
 					<a href="work/knopf/index.html">
 						<img src="site/assets/knopf.jpg" width="1200" height="600" style="max-width:600px" alt="">
 						<span class="title-wrapper">
