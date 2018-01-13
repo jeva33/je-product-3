@@ -20521,11 +20521,11 @@ body.template-home #home div.content {
         max-width: 600px;
         }
     }
-@media only screen and (min-width: 40em) {
+/*@media only screen and (min-width: 40em) {
         body.template-home {
             background-position: 60%;
         }
-    }
+    }*/
 body.template-home #home div.content p {
     margin-bottom: 0
 }

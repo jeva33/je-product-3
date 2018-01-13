@@ -187,7 +187,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim" style="width: 100%; padding-top: 25%;">HP Enterprise</div>
+          <div class="title-skrim" style="width: 100%; padding-top: 20%;">HP Enterprise</div>
 
 					<a href="work/hp/index.html">
 						<img src="site/assets/hp.jpg" width="1200" height="600" style="max-width:600px" alt="">
@@ -270,7 +270,7 @@
 
 				<div class="project-item">
 
-          <div class="title-skrim" style="width: 100%; padding-top: 25%;">Knopf</div>
+          <div class="title-skrim" style="width: 100%; padding-top: 20%;">Knopf</div>
 
 					<a href="work/knopf/index.html">
 						<img src="site/assets/knopf.jpg" width="1200" height="600" style="max-width:600px" alt="">
