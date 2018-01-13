@@ -91,7 +91,7 @@
 			<div class="content wow fadeInDown">
 				<div class="site-name"></div>
 				<div class="body">
-					<p><span id="je-name" style="font-weight: 600;font-size: 80px;line-height: 100px;display: inline-block;padding:6%;">JON EVA</span></p>
+					<p><span id="je-name" style="font-weight: 600;font-size: 90px;line-height: 100px;display: inline-block;padding:6% 6% 3% 6%;">JON EVA</span></p>
 					<p id="je-intro">Product Designer / Interaction Designer (UXD) specializing in building native mobile and web apps from zero to feature complete in verticals not limited to; education, finance, business management, retail and sports. A business and technology foundation built on years of interaction design, motion design, brand development and marketing experience.</p>
 				</div>
 			</div>

@@ -20474,14 +20474,14 @@ body.template-home #home {
 }
 @media only screen and (orientation: portrait) {
     body.template-home #home {
-        height: 80vh
+        height: 60vh
     }
 }
 @media only screen and (min-width: 40.063em) {
     body.template-home #home {
         display: flex;
         display: -webkit-flex;
-        justify-content: center
+        justify-content: center;
     }
 }
 @media only screen {
@@ -20512,14 +20512,20 @@ body.template-home #home div.content {
         display: inline-block;
         margin: auto;
         text-align: center;
+        padding-bottom: 20px;
     }
 }
 @media only screen and (min-width: 40.063em) {
     body.template-home #home div.content {
         padding: 45px 50px;
         max-width: 600px;
+        }
     }
-}
+@media only screen and (min-width: 40em) {
+        body.template-home {
+            background-position: 60%;
+        }
+    }
 body.template-home #home div.content p {
     margin-bottom: 0
 }
