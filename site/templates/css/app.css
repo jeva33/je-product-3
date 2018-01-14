@@ -20459,7 +20459,7 @@ body.template-home {
     background-image: url(../images/home/home_01_2000.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21417,7 +21417,7 @@ body.template-contact div.contact-form-wrapper form.contact button.submit {
     width: 100%;
     height: 100%;
     float: left;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     color: #FFFFFF;
     font-family: "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 1.9em;
@@ -21426,4 +21426,5 @@ body.template-contact div.contact-form-wrapper form.contact button.submit {
     text-align: center;
     padding: 4em 1em 0 1em;
     text-shadow: 1px 1px 1px black;
+    border-bottom: 1px solid #FFFFFF;
 }
