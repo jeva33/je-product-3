@@ -126,19 +126,20 @@
           </a>
         </div>
 
-				<div class="project-item">
+        <div class="project-item">
 
-          <div class="title-skrim" style="height: 600px;padding-top: 8em;">Superbowl 35</div>
+          <div class="title-skrim" style="height: 600px;padding-top: 8em;">InVue</div>
 
-					<a href="work/superbowl/index.html">
-						<img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px" alt="">
-						<span class="title-wrapper">
-							<span class="title">
-								Superbowl 35
-							</span>
-						</span>
-					</a>
-				</div>
+          <a href="work/invue/index.html">
+            <div id="je-motion-invue" style="max-width:300px">
+              <span class="title-wrapper">
+                <span class="title">
+                  InVue
+                </span>
+              </span>
+            </div>
+          </a>
+        </div>
 
 				<div class="project-item">
 
@@ -201,16 +202,15 @@
 
         <div class="project-item">
 
-          <div class="title-skrim" style="height: 600px;padding-top: 8em;">InVue</div>
+          <div class="title-skrim" style="height: 600px;padding-top: 8em;">Superbowl 35</div>
 
-          <a href="work/invue/index.html">
-            <div id="je-motion-invue" style="max-width:300px">
-              <span class="title-wrapper">
-                <span class="title">
-                  InVue
-                </span>
+          <a href="work/superbowl/index.html">
+            <img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px" alt="">
+            <span class="title-wrapper">
+              <span class="title">
+                Superbowl 35
               </span>
-            </div>
+            </span>
           </a>
         </div>
 
