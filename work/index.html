@@ -15,7 +15,62 @@
 
   <body class="wow fadeIn" data-wow-duration=".5s">
 
-    <!-- Full Screen Menu -->
+
+<!-- Preload rollover gifs -->
+<div class="hidden">
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+      var images = new Array()
+      function preload() {
+        for (i = 0; i < preload.arguments.length; i++) {
+          images[i] = new Image()
+          images[i].src = preload.arguments[i]
+        }
+      }
+      preload(
+        "http://www.joneva.consulting/site/assets/bc02.gif",
+        "http://www.joneva.consulting/site/assets/ec.gif",
+        "http://www.joneva.consulting/site/assets/invue.gif",
+        "http://www.joneva.consulting/site/assets/motion.gif",
+        "http://www.joneva.consulting/site/assets/qiq.gif",
+        "http://www.joneva.consulting/site/assets/thelife.gif"
+      )
+    //--><!]]>
+  </script>
+</div>
+
+
+<!-- Replace hover effect on touch devices -->
+<style>
+  @media (hover:none), (hover:on-demand) {
+
+    div#je-motion-ec:hover {
+      background-image: none;
+    }
+    #work span.title-wrapper .title {
+      display: block;
+      color: #FFFFFF;
+      text-decoration: none;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    #work div.project-item .skrim {
+      background: rgba(0, 0, 0, 0.65);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .title-skrim {
+      display: block;
+    }
+
+  }
+</style>
+
+
+  <!-- Full Screen Menu -->
     <div id="primary-navigation">
       <div class="inner">
         <a href="index.html#" class="close-primary-navigation">

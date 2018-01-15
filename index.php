@@ -16,7 +16,31 @@
   <body class="template-home page-1 wow fadeIn" data-wow-duration=".5s">
 
 
-<!-- suppress hover effect on devices that don't support hover fully -->
+<!-- Preload rollover gifs -->
+<div class="hidden">
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+      var images = new Array()
+      function preload() {
+        for (i = 0; i < preload.arguments.length; i++) {
+          images[i] = new Image()
+          images[i].src = preload.arguments[i]
+        }
+      }
+      preload(
+        "http://www.joneva.consulting/site/assets/bc02.gif",
+        "http://www.joneva.consulting/site/assets/ec.gif",
+        "http://www.joneva.consulting/site/assets/invue.gif",
+        "http://www.joneva.consulting/site/assets/motion.gif",
+        "http://www.joneva.consulting/site/assets/qiq.gif",
+        "http://www.joneva.consulting/site/assets/thelife.gif"
+      )
+    //--><!]]>
+  </script>
+</div>
+
+
+<!-- Replace hover effect on touch devices -->
 <style>
   @media (hover:none), (hover:on-demand) {
 
@@ -46,7 +70,7 @@
 </style>
 
 
-    <!-- Full Screen Menu -->
+<!-- Full Screen Menu -->
     <div id="primary-navigation">
       <div class="inner">
         <a href="index.html#" class="close-primary-navigation">
@@ -85,7 +109,7 @@
       </div>
 		</div>
 
-    <!-- main content / not off canvas -->
+<!-- Main Content -->
 
 		<div id="home">
 			<div class="content wow fadeInDown">
