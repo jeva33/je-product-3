@@ -182,20 +182,20 @@
           </a>
         </div>
 
-				<div class="project-item">
+        <div class="project-item">
 
-          <div class="title-skrim">Brite Class</div>
+          <div class="title-skrim">Outpost Digital</div>
 
-					<a href="work/bc/index.html">
-						<div id="je-motion-bc" style="max-width:300px">
-						  <span class="title-wrapper">
-							 <span class="title">
-								Brite Class
-							 </span>
-						  </span>
+          <a href="work/opd/index.html">
+            <div id="je-motion" style="max-width:300px">
+              <span class="title-wrapper">
+                <span class="title" style="margin: -3% 0 30% 0;">
+                  Outpost Digital
+                </span>
+              </span>
             </div>
-					</a>
-				</div>
+          </a>
+        </div>
 
 				<div class="project-item">
 
@@ -210,22 +210,22 @@
 						</span>
 					</div>
 					</a>
-				</div>
+				</div>w
 
-				<div class="project-item">
+        <div class="project-item">
 
-          <div class="title-skrim">Outpost Digital</div>
+          <div class="title-skrim">Brite Class</div>
 
-					<a href="work/opd/index.html">
-						<div id="je-motion" style="max-width:300px">
-							<span class="title-wrapper">
-								<span class="title" style="margin: -3% 0 30% 0;">
-									Outpost Digital
-								</span>
-							</span>
-						</div>
-					</a>
-				</div>
+          <a href="work/bc/index.html">
+            <div id="je-motion-bc" style="max-width:300px">
+              <span class="title-wrapper">
+               <span class="title">
+                Brite Class
+               </span>
+              </span>
+            </div>
+          </a>
+        </div>
 
 				<div class="project-item">
 
