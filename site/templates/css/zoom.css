@@ -1,0 +1,16 @@
+#zoom-in-but,
+#zoom-out-but {
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  z-index: 100;
+}
+#zoom-in-but {
+  margin: 20px 0 0 20px;
+  background-image: url(../../../icons/plus.svg);
+}
+#zoom-out-but {
+  margin: 20px 0 0 42px;
+  background-image: url(../../../icons/minus.svg);
+}
+

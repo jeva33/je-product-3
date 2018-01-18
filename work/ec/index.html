@@ -26,6 +26,7 @@
 
     <!-- MasterSlider main JS file -->
     <script src="../masterslider/masterslider.min.js"></script>
+    <script src="../../js/zoom.js"></script>
 
     <script>
       window['_fs_debug'] = false;
@@ -47,11 +48,17 @@
     </script>
 
   </head>
-  <body>
+  <body runat="server" id="Body" style="zoom:100%">
 
-  <style type="text/css">
-
-  </style>
+<!-- hide "zoom" buttons on touch devices -->
+<style>
+  @media (hover:none), (hover:on-demand) {
+    #zoom-in-but,
+    #zoom-out-but {
+      display: none;
+    }
+  }
+</style>
 
     <!-- Full Screen Menu -->
 
@@ -102,6 +109,9 @@
           </a>
       </div>
     </div>
+
+    <div id="zoom-in-but"></div>
+    <div id="zoom-out-but"></div>
 
 <div class="project">
 
