@@ -51,6 +51,16 @@
   </head>
   <body runat="server" id="Body" style="zoom:100%">
 
+  <!-- hide "zoom" buttons on touch devices -->
+  <style>
+    @media (hover:none), (hover:on-demand) {
+      #zoom-in-but,
+      #zoom-out-but {
+        display: none;
+      }
+    }
+  </style>
+
     <!-- Full Screen Menu -->
 
     <div id="primary-navigation">

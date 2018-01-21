@@ -51,9 +51,16 @@
   </head>
   <body runat="server" id="Body" style="zoom:100%">
 
-  <style type="text/css">
+<!-- hide "zoom" buttons on touch devices -->
+<style>
+  @media (hover:none), (hover:on-demand) {
+    #zoom-in-but,
+    #zoom-out-but {
+      display: none;
+    }
+  }
+</style>
 
-  </style>
 
     <!-- Full Screen Menu -->
 
@@ -161,7 +168,7 @@
         </div>
         <div class="small-12 medium-4 large-3 columns">
           <div class="project-meta wow fadeIn" data-wow-offset="10">
-            <div class="je-flash wow flash" data-wow-delay="6s" data-wow-duration="3s">
+            <div class="je-flash wow flash" data-wow-delay="0s" data-wow-duration="0s">
 <!--             <a href="work/index.html"><div id="case-study" class="animated wow fadeInRight" data-wow-delay="0.75s">CASE STUDY<img src="../../icons/ani-arrow.svg" id="throb"></div></a></div> -->
             <h4>Enterprise Software</h4>
             <!-- <h5>
