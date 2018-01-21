@@ -7,7 +7,7 @@
     <title>JON EVA | Product Designer | Interaction Designer</title>
     <meta name="description" content="Specializing in building native mobile and web apps from zero to feature complete in verticals not limited to; education, finance, business management, retail and sports. A business and technology foundation built on years of interaction design, motion design, brand development and marketing experience." />
     <link rel="stylesheet" href="site/templates/css/app.css" />
-    <link rel="stylesheet" href="site/templates/css/skrim.css" />
+    <link rel="stylesheet" href="../../site/templates/css/touch.css" />
     <script src="site/templates/bower_components/modernizr/modernizr.js"></script>
     <link href="http://maxcdn.bootstrapcdn.com/div.je-top-bar.stickyawesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='	text/css'>
