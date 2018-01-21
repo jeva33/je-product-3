@@ -1,0 +1,9 @@
+#ec-touch {
+  background-image: url(../../../site/assets/ec-dark.jpg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  display: none;
+  height: 300px;
+  max-width: 300px;
+  width: 300px;
+}
