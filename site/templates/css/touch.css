@@ -10,7 +10,10 @@
 
 #ec-touch,
 #invue-touch,
-#opd-touch {
+#opd-touch,
+#qiq-touch,
+#bc-touch,
+#hp-touch {
   background-size: 300px;
   background-repeat: no-repeat;
   display: none;
