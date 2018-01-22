@@ -24,8 +24,8 @@
   background-repeat: no-repeat;
   display: none;
   max-width: 300px;
-  width: 300px;
-}
+/*  width: 300px;
+*/}
 
 /*#hp-touch,
 #knopf-touch {
@@ -34,8 +34,8 @@
 */
 #ec-touch {
   background-image: url(../../../site/assets/ec-dark.jpg);
-  height: 300px;
-}
+/*  height: 300px;
+*/}
 
 #invue-touch {
   background-image: url(../../../site/assets/invue-dark.jpg);
@@ -59,6 +59,7 @@
 
 #hp-touch {
   background-image: url(../../../site/assets/hp-dark.jpg);
+  height: cover;
 }
 
 #sb-touch {
