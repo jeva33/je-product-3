@@ -7,3 +7,13 @@
   max-width: 300px;
   width: 300px;
 }
+
+#invue-touch {
+  background-image: url(../../../site/assets/invue-dark.jpg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  display: none;
+  height: 600px;
+  max-width: 300px;
+  width: 300px;
+}

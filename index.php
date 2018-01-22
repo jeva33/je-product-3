@@ -81,11 +81,13 @@
       top: 0;
     }
     .title-skrim,
-    #ec-touch {
+    #ec-touch,
+    #invue-touch {
       display: block;
     }
 
-    #je-motion-ec {
+    #je-motion-ec,
+    #je-motion-invue {
       display: none;
     }
 
@@ -159,7 +161,6 @@
 			<div id="work">
 
         <div class="project-item">
-
           <a href="work/ec/index.html">
             <div class="title-skrim">Employee Channel</div>
             <div id="ec-touch"></div>
@@ -174,10 +175,8 @@
         </div>
 
         <div class="project-item">
-
-          <div class="title-skrim" style="height: 600px;padding-top: 8em;">InVue</div>
-
           <a href="work/invue/index.html">
+            <div class="title-skrim" style="height: 600px;padding-top: 8em;">InVue</div>
             <div id="je-motion-invue" style="max-width:300px">
               <span class="title-wrapper">
                 <span class="title">
