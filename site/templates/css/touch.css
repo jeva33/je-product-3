@@ -20,7 +20,7 @@
 #nes-touch,
 #cbb-touch,
 #knopf-touch {
-  background-size: cover;
+  background-size: 300px;
   background-repeat: no-repeat;
   display: none;
   max-width: 300px;
