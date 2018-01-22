@@ -20,13 +20,18 @@
 #nes-touch,
 #cbb-touch,
 #knopf-touch {
-  background-size: 300px;
+  background-size: cover;
   background-repeat: no-repeat;
   display: none;
   max-width: 300px;
   width: 300px;
 }
 
+/*#hp-touch,
+#knopf-touch {
+  background-size: 300px;
+}
+*/
 #ec-touch {
   background-image: url(../../../site/assets/ec-dark.jpg);
   height: 300px;
