@@ -80,8 +80,13 @@
       left: 0;
       top: 0;
     }
-    .title-skrim {
+    .title-skrim,
+    #ec-touch {
       display: block;
+    }
+
+    #je-motion-ec {
+      display: none;
     }
 
   }
