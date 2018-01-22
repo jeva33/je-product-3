@@ -48,4 +48,35 @@
 
 #hp-touch {
   background-image: url(../../../site/assets/hp-dark.jpg);
+  height: 300px;
+}
+
+#sb-touch {
+  background-image: url(../../../site/assets/sb35-dark.jpg);
+  height: 600px;
+}
+
+#thelife-touch {
+  background-image: url(../../../site/assets/thelife-dark.jpg);
+  height: 300px;
+}
+
+#taxfree-touch {
+  background-image: url(../../../site/assets/taxfree-dark.jpg);
+  height: 300px;
+}
+
+#nes-touch {
+  background-image: url(../../../site/assets/nes-dark.jpg);
+  height: 300px;
+}
+
+#cbb-touch {
+  background-image: url(../../../site/assets/cbb-dark.jpg);
+  height: 300px;
+}
+
+#knopf-touch {
+  background-image: url(../../../site/assets/knopf-dark.jpg);
+  height: 300px;
 }

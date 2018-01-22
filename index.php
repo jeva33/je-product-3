@@ -86,7 +86,13 @@
     #opd-touch,
     #qiq-touch,
     #hp-touch,
-    #bc-touch {
+    #bc-touch,
+    #sb-touch,
+    #thelife-touch,
+    #taxfree-touch,
+    #nes-touch,
+    #cbb-touch,
+    #knopf-touch {
       display: block;
     }
 
@@ -95,10 +101,15 @@
     #je-motion,
     #je-motion-qiq,
     #je-motion-bc,
-    #hp-hover {
+    #hp-hover,
+    #sb-hover,
+    #je-motion-life,
+    #taxfree-hover,
+    #nes-hover,
+    #cbb-hover
+    #knopf-hover {
       display: none;
     }
-
   }
 </style>
 
@@ -142,8 +153,8 @@
       </div>
 		</div>
 
-<!-- Main Content -->
 
+<!-- Main Content -->
 		<div id="home">
 			<div class="content wow fadeInDown">
 				<div class="site-name"></div>
@@ -190,7 +201,7 @@
             <div class="title-skrim" style="height: 600px;padding-top: 8em;">InVue</div>
             <div id="invue-touch"></div>
             <!-- Desktop (non-touch) title area -->
-            <div id="je-motion-invue" style="max-width:300px">
+            <div id="je-motion-invue" width="600" height="1200" style="max-width:300px">
               <span class="title-wrapper">
                 <span class="title">
                   InVue
@@ -266,25 +277,29 @@
 				</div>
 
         <div class="project-item">
-
-          <div class="title-skrim" style="height: 600px;padding-top: 8em;">Superbowl 35</div>
-
           <a href="work/superbowl/index.html">
-            <img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px">
-            <span class="title-wrapper">
-              <span class="title">
-                Superbowl 35
+            <!-- Touch device title area -->
+            <div class="title-skrim" style="height: 600px;padding-top: 8em;">Superbowl 35</div>
+            <div id="sb-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+            <div id="sb-hover">
+              <img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px">
+                <span class="title-wrapper">
+                <span class="title">
+                  Superbowl 35
+                </span>
               </span>
-            </span>
+            </div>
           </a>
         </div>
 
 				<div class="project-item">
-
-          <div class="title-skrim">ESPN The Life</div>
-
 					<a href="work/thelife/index.html">
-						<div id="je-motion-life" style="max-width:300px">
+            <!-- Touch device title area -->
+            <div class="title-skrim">ESPN The Life</div>
+            <div id="thelife-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+            <div id="je-motion-life" style="max-width:300px">
 							<span class="title-wrapper">
 								<span class="title" style="margin: -3% 0 30% 0;">
 									ESPN The Life
@@ -295,54 +310,70 @@
 				</div>
 
 				<div class="project-item">
-
-          <div class="title-skrim">Tax Free World Association</div>
-
 					<a href="work/taxfree/index.html">
-						<img src="site/assets/taxfree.jpg" width="600" height="600" style="max-width:300px" alt="">
-						<span class="title-wrapper">
-							<span class="title" style="margin: -10% 0 30% 0;">
-								Tax Free World Association</span>
-						</span>
-					</a>
+            <!-- Touch device title area -->
+            <div class="title-skrim">Tax Free World Association</div>
+            <div id="taxfree-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+						<div id="taxfree-hover">
+              <img src="site/assets/taxfree.jpg" width="600" height="600" style="max-width:300px" alt="">
+						    <span class="title-wrapper">
+                  <span class="title" style="margin: -10% 0 30% 0;">
+								    Tax Free World Association
+                  </span>
+						    </span>
+              </div>
+					 </a>
 				</div>
 
 				<div class="project-item">
-
-          <div class="title-skrim">NASA Explorer Schools</div>
-
 					<a href="work/nes/index.html">
-						<img src="site/assets/nes.jpg" width="600" height="600" style="max-width:300px" alt="">
-						<span class="title-wrapper">
-							<span class="title" style="margin: -10% 0 30% 0;">
-								NASA Explorer Schools</span>
-						</span>
+            <!-- Touch device title area -->
+            <div class="title-skrim">NASA Explorer Schools</div>
+            <div id="nes-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+            <div id="nes-hover">
+						  <img src="site/assets/nes.jpg" width="600" height="600" style="max-width:300px" alt="">
+						    <span class="title-wrapper">
+                  <span class="title" style="margin: -10% 0 30% 0;">
+								    NASA Explorer Schools
+                  </span>
+						    </span>
+            </div>
 					</a>
 				</div>
 
 				<div class="project-item">
-
-          <div class="title-skrim" style="padding-top: 3em;">Big Brothers & Big Sisters of Los Angeles</div>
-
 					<a href="work/cbb/index.html">
-						<img src="site/assets/cbb.jpg" width="600" height="600" style="max-width:300px" alt="">
-						<span class="title-wrapper">
-							<span class="title" style="margin: -10% 0 30% 0;">
-								Big Brothers & Big Sisters of Los Angeles</span>
-						</span>
+            <!-- Touch device title area -->
+            <div class="title-skrim" style="padding-top: 3em;">Big Brothers & Big Sisters of Los Angeles</div>
+            <div id="cbb-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+            <div id="cbb-hover">
+              <img src="site/assets/cbb.jpg" width="600" height="600" style="max-width:300px" alt="">
+						    <span class="title-wrapper">
+                  <span class="title" style="margin: -10% 0 30% 0;">
+								    Big Brothers & Big Sisters of Los Angeles
+                  </span>
+						    </span>
+            </div>
 					</a>
 				</div>
 
 				<div class="project-item">
-
-          <div class="title-skrim" style="width: 100%; padding-top: 20%;">Knopf</div>
-
 					<a href="work/knopf/index.html">
-						<img src="site/assets/knopf.jpg" width="1200" height="600" style="max-width:600px" alt="">
-						<span class="title-wrapper">
-							<span class="title">
-								Knopf</span>
-						</span>
+            <!-- Touch device title area -->
+            <div class="title-skrim" style="width: 100%; padding-top: 20%;">Knopf</div>
+            <div id="knopf-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+            <div id="knopf-hover">
+						  <img src="site/assets/knopf.jpg" width="1200" height="600" style="max-width:600px" alt="">
+						    <span class="title-wrapper">
+                  <span class="title">
+								    Knopf
+                  </span>
+						    </span>
+            </div>
 					</a>
 				</div>
 
