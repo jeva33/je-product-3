@@ -1,19 +1,48 @@
-#ec-touch {
-  background-image: url(../../../site/assets/ec-dark.jpg);
+.title-skrim {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+#ec-touch,
+#invue-touch,
+#opd-touch {
   background-size: 300px;
   background-repeat: no-repeat;
   display: none;
-  height: 300px;
   max-width: 300px;
   width: 300px;
 }
 
+#ec-touch {
+  background-image: url(../../../site/assets/ec-dark.jpg);
+  height: 300px;
+}
+
 #invue-touch {
   background-image: url(../../../site/assets/invue-dark.jpg);
-  background-size: 300px;
-  background-repeat: no-repeat;
-  display: none;
   height: 600px;
-  max-width: 300px;
-  width: 300px;
+}
+
+#opd-touch {
+  background-image: url(../../../site/assets/motion-dark.png);
+  height: 300px;
+}
+
+#qiq-touch {
+  background-image: url(../../../site/assets/qiq-dark.png);
+  height: 300px;
+}
+
+#bc-touch {
+  background-image: url(../../../site/assets/bc02-dark.jpg);
+  height: 300px;
+}
+
+#hp-touch {
+  background-image: url(../../../site/assets/hp-dark.jpg);
 }

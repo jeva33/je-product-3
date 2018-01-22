@@ -82,12 +82,20 @@
     }
     .title-skrim,
     #ec-touch,
-    #invue-touch {
+    #invue-touch,
+    #opd-touch,
+    #qiq-touch,
+    #hp-touch,
+    #bc-touch {
       display: block;
     }
 
     #je-motion-ec,
-    #je-motion-invue {
+    #je-motion-invue,
+    #je-motion,
+    #je-motion-qiq,
+    #je-motion-bc,
+    #hp-hover {
       display: none;
     }
 
@@ -162,22 +170,26 @@
 
         <div class="project-item">
           <a href="work/ec/index.html">
+            <!-- Touch device title area -->
             <div class="title-skrim">Employee Channel</div>
             <div id="ec-touch"></div>
+            <!-- Desktop (non-touch) title area -->
             <div id="je-motion-ec" style="max-width:300px">
-                <span class="title-wrapper">
-                  <span class="title" style=" margin: -3% 0 30% 0;background-color: rgba(255, 255, 255, 0);">
-                    Employee Channel
-                  </span>
+              <span class="title-wrapper">
+                <span class="title" style=" margin: -3% 0 30% 0;background-color: rgba(255, 255, 255, 0);">
+                  Employee Channel
                 </span>
-              </div>
+              </span>
+            </div>
           </a>
         </div>
 
         <div class="project-item">
           <a href="work/invue/index.html">
+            <!-- Touch device title area -->
             <div class="title-skrim" style="height: 600px;padding-top: 8em;">InVue</div>
             <div id="invue-touch"></div>
+            <!-- Desktop (non-touch) title area -->
             <div id="je-motion-invue" style="max-width:300px">
               <span class="title-wrapper">
                 <span class="title">
@@ -189,10 +201,11 @@
         </div>
 
         <div class="project-item">
-
-          <div class="title-skrim">Outpost Digital</div>
-
           <a href="work/opd/index.html">
+            <!-- Touch device title area -->
+            <div class="title-skrim">Outpost Digital</div>
+            <div id="opd-touch"></div>
+            <!-- Desktop (non-touch) title area -->
             <div id="je-motion" style="max-width:300px">
               <span class="title-wrapper">
                 <span class="title" style="margin: -3% 0 30% 0;">
@@ -204,29 +217,31 @@
         </div>
 
 				<div class="project-item">
-
-          <div class="title-skrim">Identity Design</div>
-
 					<a href="work/identity/index.html">
-						<div id="je-motion-qiq" style="max-width:300px">
+            <!-- Touch device title area -->
+            <div class="title-skrim">Identity Design</div>
+            <div id="qiq-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+  					<div id="je-motion-qiq" style="max-width:300px">
 							<span class="title-wrapper">
 								<span class="title" style="margin: -3% 0 30% 0;">
 									Identity Design
 								</span>
-						</span>
-					</div>
+						  </span>
+					   </div>
 					</a>
-				</div>w
+				</div>
 
         <div class="project-item">
-
-          <div class="title-skrim">Brite Class</div>
-
           <a href="work/bc/index.html">
+            <!-- Touch device title area -->
+            <div class="title-skrim">Brite Class</div>
+            <div id="bc-touch"></div>
+            <!-- Desktop (non-touch) title area -->
             <div id="je-motion-bc" style="max-width:300px">
               <span class="title-wrapper">
                <span class="title">
-                Brite Class
+                  Brite Class
                </span>
               </span>
             </div>
@@ -234,16 +249,19 @@
         </div>
 
 				<div class="project-item">
-
-          <div class="title-skrim" style="width: 100%; padding-top: 20%;">HP Enterprise</div>
-
 					<a href="work/hp/index.html">
-						<img src="site/assets/hp.jpg" width="1200" height="600" style="max-width:600px" alt="">
-						<span class="title-wrapper">
-							<span class="title">
-								HP Enterprise
-							</span>
-						</span>
+            <!-- Touch device title area -->
+            <div class="title-skrim" style="width: 100%; padding-top: 20%;">HP Enterprise</div>
+            <div id="hp-touch"></div>
+            <!-- Desktop (non-touch) title area -->
+            <div id="hp-hover">
+              <img src="site/assets/hp.jpg" width="1200" height="600" style="max-width:600px">
+						  <span class="title-wrapper">
+							 <span class="title">
+							   HP Enterprise
+							 </span>
+						  </span>
+            </div>
 					</a>
 				</div>
 
@@ -252,7 +270,7 @@
           <div class="title-skrim" style="height: 600px;padding-top: 8em;">Superbowl 35</div>
 
           <a href="work/superbowl/index.html">
-            <img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px" alt="">
+            <img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px">
             <span class="title-wrapper">
               <span class="title">
                 Superbowl 35
