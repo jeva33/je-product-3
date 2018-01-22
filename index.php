@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="site/templates/css/app.css" />
     <link rel="stylesheet" href="../../site/templates/css/touch.css" />
     <script src="site/templates/bower_components/modernizr/modernizr.js"></script>
-    <link href="http://maxcdn.bootstrapcdn.com/div.je-top-bar.stickyawesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='	text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700" rel="stylesheet" type='text/css'><meta name="google-site-verification" content="UIb5nhSu7_OaR_ApnQD-f7YUCF-LDLqRF5yFW07TZdg" />
     <script>
