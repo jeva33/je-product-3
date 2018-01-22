@@ -106,7 +106,7 @@
     #je-motion-life,
     #taxfree-hover,
     #nes-hover,
-    #cbb-hover
+    #cbb-hover,
     #knopf-hover {
       display: none;
     }
