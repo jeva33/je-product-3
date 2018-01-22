@@ -160,11 +160,10 @@
 
         <div class="project-item">
 
-          <div class="title-skrim">Employee Channel</div>
-
           <a href="work/ec/index.html">
-              <div id="ec-touch"></div>
-              <div id="je-motion-ec" style="max-width:300px">
+            <div class="title-skrim">Employee Channel</div>
+            <div id="ec-touch"></div>
+            <div id="je-motion-ec" style="max-width:300px">
                 <span class="title-wrapper">
                   <span class="title" style=" margin: -3% 0 30% 0;background-color: rgba(255, 255, 255, 0);">
                     Employee Channel
