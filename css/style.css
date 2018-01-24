@@ -23,17 +23,17 @@ video::-webkit-media-controls-time-remaining-display {
 video::-webkit-media-controls-timeline {
   position: relative; }
 
-.caption-right {
+.caption {
   color: #666666;
-  font-family: 'Martel', serif;
-  font-size: 14px;
-  font-weight: 300;
-  float: left;
-  width: 286px;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  padding: 0 24px 28px 0; }
+    font-family: 'Martel', serif;
+    font-size: 14px;
+    font-weight: 300;
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0.5em 0;
+}
 
 #home-button {
   height: 190px; }
@@ -399,23 +399,21 @@ Main Components
 /*# sourceMappingURL=style.css.map */
 
 .case-study-tag {
-  padding: 2px 18px;
-  border-radius: 3px;
-  display: inline-block;
-  font-family: lato;
-  font-weight: 500;
-  color: rgba(252, 49, 22, 0.8);
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  margin-bottom: 12px;
-  border: 1px solid rgba(252, 49, 22, 0.8);
+    padding: 4px;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: lato;
+    font-weight: 500;
+    color: rgba(252, 49, 22, 0.8);
+    font-size: 12px;
+    letter-spacing: 0.5px;
 }
 .case-study-head {
   font-size: 44px;
 }
 .JE-subhead {
   font-family: 'Martel', serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   margin-bottom: 12px;
 }
