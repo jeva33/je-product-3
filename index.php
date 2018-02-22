@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui, maximum-scale=1.0, user-scalable=no" />
     <title>JON EVA | Product Designer | Interaction Designer</title>
-    <meta name="description" content="Specializing in building native mobile and web apps from zero to feature complete in verticals not limited to; education, finance, business management, retail and sports. A business and technology foundation built on years of interaction design, motion design, brand development and marketing experience." />
+    <meta name="description" content="Specializing in building native mobile and web apps from zero to feature complete. A business and technology foundation built on years of interaction design, motion design, brand development and marketing experience." />
     <link rel="stylesheet" href="site/templates/css/app.css" />
     <link rel="stylesheet" href="../../site/templates/css/touch.css" />
     <script src="site/templates/bower_components/modernizr/modernizr.js"></script>
@@ -31,6 +31,7 @@
       })(window,document,window['_fs_namespace'],'script','user');
     </script>
     <meta property="og:image" content="http://www.joneva.consulting/site/templates/images/JE-open-graphic.jpg" />
+    <meta property="og:title" content="JON EVA | Interaction Designer" />
   </head>
 
   <body class="template-home page-1 wow fadeIn" data-wow-duration=".5s">
