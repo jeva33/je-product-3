@@ -30,6 +30,7 @@
           ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}} };
       })(window,document,window['_fs_namespace'],'script','user');
     </script>
+    <meta property="og:image" content="http://www.joneva.consulting/site/templates/images/JE-open-graphic.jpg" />
   </head>
 
   <body class="template-home page-1 wow fadeIn" data-wow-duration=".5s">
