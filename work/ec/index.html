@@ -152,7 +152,7 @@
               <div class="text-block-color" style="background: white;">
                 <div class="text-pod" style="max-width: 692px; margin: auto;">
                   <h1 style="padding-top: 70px;">EmployeeChannel</h1>
-                  <p class="JE-description" style="font-size: 1.2em; margin-top: 0.9em;  padding-bottom: 50px;"> Employee often feel disconnected and unable to utilize their benefits and services. The idea of finding answers about their medical coverage, company policy or simply requesting vacation days is daunting. This situation can also leave a company in the dark about the true needs of the employees. According to a gallup poll, unhappy workers cost the United States $450 billion to $550 billion a year.</p>
+                  <p class="JE-description" style="font-size: 1.2em; margin-top: 0.9em;  padding-bottom: 50px;"> Employees often feel disconnected and unable to utilize their benefits and services. The idea of searching for answers about their medical coverage, company policy or simply requesting vacation days is sometimes daunting. This situation can also leave a company in the dark about the true needs of the employees. According to a gallup poll, unhappy workers cost the United States $450 billion to $550 billion a year.</p>
                 </div>
               </div>
 
@@ -208,34 +208,46 @@
                   <div class="small-head" style="font-size: 14px; font-weight: 800; margin-bottom: 16px;">DESIGN</div>
                   <div class="medium-head" style="padding-bottom: 10px; font-size: 28px; font-weight: 600; ">Striking a Balance: Push vs. Pull</div>
                   <p class="JE-description" style="">Data shows up to 60% of users opt-out of push notifications. Silicon Valley investor Andrew Chen in his blog discusses notifications and the delicate relationship with the user, “Once your users begin receiving push notifications, it is critical that you respect this incredibly personal communication channel. By only sending hyper-targeted, personalized push messages that actually add value, you can ensure that your users don’t later opt-out of push…”</p>
-                  <p class="JE-description" style="">The design approach was to mix personalized benefit updates – alerts about your medical deductible, a notification telling you that your payroll was processed – with company published push notifications around policy, news or compliance deadlines.</p>
+                  
                   <div class="inline-image" style="width: 100%;">
                     <img src="img/interaction-model-sketch-small2.png" alt=""/ style="padding-bottom: 26px; max-width: 692px">
                   </div>
-                  <p class="JE-description" style="">By building metrics into an interaction model, employees could feel in-control by quickly dismissing notifications directly in the timeline. The gesture pattern design also considered the recording of “read” actions and “dismissed” actions which lead to the first set of analytics. With these basic metrics we were able to begin building-in tips and best-practices to help guide employer publishing.</p>
-                  <div class="inline-image" style="width: 100%;">
+
+                  <p class="JE-description" style="">The design approach was to mix personalized benefit updates – alerts about your medical deductible, a notification telling you that your payroll was processed – with company published push notifications around policy, news or compliance deadlines.</p>
+                  
+                  <div class="inline-image" style="width: 100%; padding-bottom: 20px;">
                     <img src="img/interaction-guide.png" alt=""/ style=" max-width: 692px">
                   </div>
+
+                  <p class="JE-description" style="">By building metrics into an interaction model, employees could feel in-control by quickly dismissing notifications directly in the timeline. The gesture pattern design also considered the recording of “read” actions and “dismissed” actions which lead to the first set of analytics. With these basic metrics we were able to begin building-in tips and best-practices to help guide employer publishing.</p>
+
                 </div>
               </div>
 
               <div class="text-block-color" style="background: #fafafa; padding: 70px 0 50px 0;">
                 <div class="text-pod" style="max-width: 692px; margin: auto;">
                   <div class="medium-head" style="padding-bottom: 10px; font-size: 28px; font-weight: 600; ">Personal Information from a Impersonal Bot</div>
+
                   <p class="JE-description" style="">Employers still needed an effective tool to communicate news, events and policy but in an way that would strike a balance with what employees value without creating another HR bullhorn like email blast campaigns that had been ignored in the past.</p>
+
                   <div class="inline-image" style="width: 100%;">
                     <img src="img/logic-chart.jpg" alt=""/ style="padding-bottom: 26px; max-width: 692px">
                   </div>
-                  <p class="JE-description" style="">Designing the chat bot logic and understanding each decision along the employee’s path to an answer was easy enough although we didn’t have a database full of all the potential answers. We only had a set of 1:1 questions and answers.</p>
+
+                  <p class="JE-description" style="">Designing the chat bot logic and understanding each decision along the employee’s "path to an answer" was easy enough although we didn’t have a database full of all the potential answers. We only had a set of 1:1 questions and answers.</p>
+
                   <p class="JE-description" style="">Work began with the AI team and our data scientist, we decided to track the interactions to help train the engine. Although it became apparent that this would take time and the feature needed to be ready for the next release cycle.</p>
+
                   <p class="JE-description" style="">I decided to design the chat bot right away. The challenge was now to create a chat bot that mimics basic logic before the framework was engineered. This way when the logic was applied behind-the-scenes, users would already be accustomed to the UX.</p>
-                  <p class="JE-description" style="">The initial version displayed a series of well-timed ellipses animations to mimic “system processing time.” This gave the employee the feeling that the system was thinking about their question. By asking simple A or B questions and providing potential topics to choose from, the employee’s actions helped train the AI engine.</p>
-                  <div id="two-image-box" style="padding-bottom: 40px;">
-                    <video width="320" autoplay="autoplay" loop="true" style="float: left; padding-right: 12px;"">
+
+                  <div id="two-image-box" style="padding-bottom: 20px;">
+                    <video width="320" autoplay="autoplay" loop="true" style="float: left; padding-right: 12px; padding-bottom: 20px;">
                       <source src="img/chatbot.mp4" type="video/mp4">
                     </video>
                     <img src="img/search-results.png" style="max-width: 320px; max-height: 548px;">
                   </div>
+
+                  <p class="JE-description" style="">The initial version displayed a series of well-timed ellipses animations to mimic “system processing time.” This gave the employee the feeling that the system was thinking about their question. By asking simple A or B questions and providing potential topics to choose from, the employee’s actions helped train the AI engine.</p>                  
                 </div>
               </div>
 
