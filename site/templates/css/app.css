@@ -21427,3 +21427,74 @@ body.template-contact div.contact-form-wrapper form.contact button.submit {
     text-shadow: 1px 1px 1px black;
     border-bottom: 1px solid #FFFFFF;
 }
+
+
+/* Case Study Styles -------------------------------------------------------------------*/
+
+
+.CS-text {
+    font-family: 'Martel', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.intro-paragraph {
+    font-size: 1.2em;
+    font-family: 'Martel', serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.grey-block {
+    background: #f3f3f3;
+}
+
+.white-block {
+    background: #FFF;
+}
+
+.text-pod {
+    max-width: 692px; 
+    margin: auto;
+    border: solid transparent 26px;
+    padding: 70px 0 70px 0;
+}
+
+.small-head {
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.small-head-inline {
+    font-size: 14px;
+    font-weight: 800;
+    padding-top: 20px;
+    margin-bottom: 16px;
+}
+
+.medium-head {
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: 600; 
+}
+
+.inline-image {
+    width: 100%;
+    padding: 28px 0;
+    max-width: 692px;
+}
+
+.two-image-box {
+    padding: 28px 0;
+}
+
+.medium-stat {
+    padding: 18px 0;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin-bottom: 18px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
