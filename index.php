@@ -229,12 +229,12 @@
           </a>
         </div>
 
-				<div class="project-item">
+<!-- 				<div class="project-item">
 					<a href="work/identity/index.html">
-            <!-- Touch device title area -->
+            Touch device title area
             <div class="title-skrim">Identity Design</div>
             <div id="qiq-touch"></div>
-            <!-- Desktop (non-touch) title area -->
+            Desktop (non-touch) title area
   					<div id="je-motion-qiq" style="max-width:300px">
 							<span class="title-wrapper">
 								<span class="title" style="margin: -3% 0 30% 0;">
@@ -243,7 +243,7 @@
 						  </span>
 					   </div>
 					</a>
-				</div>
+				</div> -->
 
         <div class="project-item">
           <a href="work/bc/index.html">
@@ -278,12 +278,12 @@
 					</a>
 				</div>
 
-        <div class="project-item">
+<!--         <div class="project-item">
           <a href="work/superbowl/index.html">
-            <!-- Touch device title area -->
+            Touch device title area
             <div class="title-skrim" style="height: 600px;padding-top: 8em;">Superbowl 35</div>
             <div id="sb-touch"></div>
-            <!-- Desktop (non-touch) title area -->
+            Desktop (non-touch) title area
             <div id="sb-hover">
               <img src="site/assets/sb35.jpg" width="600" height="1200" style="max-width:300px">
                 <span class="title-wrapper">
@@ -293,7 +293,7 @@
               </span>
             </div>
           </a>
-        </div>
+        </div> -->
 
 				<div class="project-item">
 					<a href="work/thelife/index.html">
@@ -311,12 +311,12 @@
 					</a>
 				</div>
 
-				<div class="project-item">
+<!-- 				<div class="project-item">
 					<a href="work/taxfree/index.html">
-            <!-- Touch device title area -->
+
             <div class="title-skrim">Tax Free World Association</div>
             <div id="taxfree-touch"></div>
-            <!-- Desktop (non-touch) title area -->
+
 						<div id="taxfree-hover">
               <img src="site/assets/taxfree.jpg" width="600" height="600" style="max-width:300px" alt="">
 						    <span class="title-wrapper">
@@ -330,10 +330,10 @@
 
 				<div class="project-item">
 					<a href="work/nes/index.html">
-            <!-- Touch device title area -->
+
             <div class="title-skrim">NASA Explorer Schools</div>
             <div id="nes-touch"></div>
-            <!-- Desktop (non-touch) title area -->
+
             <div id="nes-hover">
 						  <img src="site/assets/nes.jpg" width="600" height="600" style="max-width:300px" alt="">
 						    <span class="title-wrapper">
@@ -347,10 +347,10 @@
 
 				<div class="project-item">
 					<a href="work/cbb/index.html">
-            <!-- Touch device title area -->
+
             <div class="title-skrim" style="padding-top: 3em;">Big Brothers & Big Sisters of Los Angeles</div>
             <div id="cbb-touch"></div>
-            <!-- Desktop (non-touch) title area -->
+
             <div id="cbb-hover">
               <img src="site/assets/cbb.jpg" width="600" height="600" style="max-width:300px" alt="">
 						    <span class="title-wrapper">
@@ -364,10 +364,10 @@
 
 				<div class="project-item">
 					<a href="work/knopf/index.html">
-            <!-- Touch device title area -->
+
             <div class="title-skrim" style="width: 100%; padding-top: 20%;">Knopf</div>
             <div id="knopf-touch"></div>
-            <!-- Desktop (non-touch) title area -->
+
             <div id="knopf-hover">
 						  <img src="site/assets/knopf.jpg" width="1200" height="600" style="max-width:600px" alt="">
 						    <span class="title-wrapper">
@@ -376,7 +376,7 @@
                   </span>
 						    </span>
             </div>
-					</a>
+					</a> -->
 				</div>
 
 	</div>
