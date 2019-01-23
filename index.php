@@ -383,7 +383,7 @@
 </div>
 
 
-    <div class="footer">
+    <div class="home-footer">
       <div class="footer-center">
         <div id="social-center">
           <a href="https://www.linkedin.com/in/jonathaneva" target="blank" class="social-link"><div class="linkedin-icon wow flipInX" data-wow-delay="0.25s"></div></a>

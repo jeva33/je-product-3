@@ -20359,8 +20359,23 @@ div.footer {
         width: 100%;
     }
 }
+
+div.home-footer {
+    background: rgba(71, 72, 81, 1);
+    color: #fff
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+@media only screen {
+    div.home-footer {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+}
+
 @media only screen and (min-width: 40.063em) {
-    div.footer {
+    div.footer,
+    div.home-footer {
     }
 }
 div.footer .logo {
