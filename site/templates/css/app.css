@@ -20602,7 +20602,7 @@ div.masthead-work-wrapper {
 @media (min-width: 1200px) {
     #work {
         width: 1200px;
-        bottom: 80px;
+        bottom: 180px;
     }
 }
 #work div.project-item {
