@@ -20344,6 +20344,11 @@ div.je-top-bar a.hamburger-v2 img {
 div.footer {
     background: rgba(71, 72, 81, 1);
     color: #fff
+    padding-top: 40px;
+    padding-bottom: 90px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 @media only screen {
     div.footer {
